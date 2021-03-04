@@ -1,0 +1,27 @@
+h1 {
+  font-size: 40px;
+  color: #f3c027;
+}
+body {
+  background-color: #b47b7b;
+}
+.fontStyle {
+  width: 800px;
+  color: #603636;
+  background-color: #ab8209;
+  padding: 10px;
+}
+h2 {
+  font-size: 30px;
+  width: 800px;
+  color: #603636;
+  background-color: #ab8209;
+  padding: 10px;
+}
+p {
+  font-size: 16px;
+  width: 800px;
+  color: #603636;
+  background-color: #ab8209;
+  padding: 10px;
+}

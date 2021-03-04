@@ -1,0 +1,35 @@
+@import "header";
+
+@colorBg: rgb(96, 54, 54);
+@width: 500px;
+@newWitdth: @width + 300px;
+
+body {
+    background-color: lighten(@colorBg, 30%);
+}
+
+.fontStyle {
+    width: @newWitdth;
+    color: if((2>1), @colorBg, white);;
+    background-color: darken(rgb(243, 192, 39), 20%);
+    padding: 10px;
+}
+
+h2{
+    font-size: 30px;
+    .fontStyle();
+}
+
+p{
+    font-size: 16px;
+    .fontStyle();
+}
+
+
+
+
+
+
+
+
+
