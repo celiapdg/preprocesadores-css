@@ -1,0 +1,46 @@
+
+flex(j=flex-start, a=j, d=row)
+  display flex
+  justify-content j
+  align-items a 
+  flex-direction d
+
+
+.mixin_brackets
+    flex(center)
+
+
+.mixin_css{
+  flex: center;
+}
+
+.mixin_transparent
+    flex center
+
+
+
+// introduciendo varios parámetros
+.mixin1{
+  flex(center, flex-start, column);
+  }
+  
+.mixin2
+  flex: center, flex-start, column
+
+.mixin3
+  flex: center flex-start column
+
+.mixin4
+  flex center flex-start column
+
+
+// ¿mixin = propiedad? :O
+border(color, radius)
+  border 1px solid color
+  border-radius radius 
+  &:hover
+    border-width 2px
+
+
+.mixin_border
+  border red 10px

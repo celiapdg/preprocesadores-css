@@ -1,0 +1,25 @@
+
+
+
+<!-- INSTALACIÓN -->
+npm install stylus -g
+
+
+Aún así necesitamos una extensión para que se coloree el código, además de añadir funciones de autocompletado. Sin embargo, no hay extensiones que permitan hacer un "watch" como ocurre con Sass y LESS, sino que tenemos que hacerlo con los siguientes comandos:
+
+
+<!-- COMPILAR -->
+    Opción 1: stylus src/app/app.component.styl
+	Este comando hay que ejecutarlo cada vez que queramos compilar
+
+    Opción 2: stylus -w src/app/app.component.styl
+	Esta opción es más cómoda, porque cada vez que guardemos el .styl se compilará el .css
+
+Podemos añadir el parámetro -o para indicar la ruta de salida, en caso de que queramos que la carpeta (y/o el nombre del archivo) sean diferentes a los que se ponen por defecto, que son la misma carpeta y nombre originales
+    
+
+
+Fuentes:
+
+https://sabe.io/tutorials/setting-up-stylus-css-preprocessor
+https://levelup.gitconnected.com/5-reasons-why-stylus-is-the-best-css-preprocessor-in-2020-6957e8ae8577
